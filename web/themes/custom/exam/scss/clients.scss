@@ -1,0 +1,80 @@
+@import "mixins";
+@import "variables";
+@import "reset";
+.main-container{
+  .region-content{
+    .views-element-container{
+      .view-clients.no-flex{
+        .view-content{
+          display: block;
+          li:not(:first-child){
+            margin-top: 10px;
+          }
+        }
+      }
+      .view-clients{
+        margin-bottom: 50px;
+        .view-content{
+          max-width: 1250px;
+          margin: 0 auto;
+          border-top: 1px solid #cccccc;
+          transform: translateY(-35px);
+          padding-top: 80px;
+          .item-list{
+            .views-field-title-1{
+              a{
+                @include fontz(16px,22px,400,normal,#6e9bca);
+              }
+            }
+            ol{
+              margin-left: 40px;
+            }
+          }
+          .slick-track{
+            display: flex;
+            align-items: center;
+            .slick-slide{
+              .field-content{
+                display: flex;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.main-container{
+  .row{
+    .col-sm-12{
+      .region-content{
+        .clients.full{
+          max-width: 1250px;
+          margin: 0 auto;
+          .content{
+            .field--name-field-link-to{
+              .field--label{
+                display: none;
+              }
+              .field--item{
+                display: none;
+              }
+            }
+            .field--name-field-media-slide{
+              .field--label{
+                display: none;
+              }
+              .field--item{
+                margin-top: 100px;
+                margin-bottom: 100px;
+                display: flex;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

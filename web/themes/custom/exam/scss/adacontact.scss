@@ -1,0 +1,30 @@
+@import "mixins";
+@import "variables";
+@import "reset";
+@media (max-width: 953px) {
+  .main-container{
+    .region-content{
+      .contact{
+        .content{
+          .layout--twocol-section--50-50{
+            .layout__region--first{
+              padding-right: 0;
+              flex: 0 1 100%;
+            }
+            .layout__region--second{
+              padding-left: 0;
+              flex: 0 1 100%;
+              .block-field-blocknodecontactfield-map{
+                .field--name-field-map{
+                  iframe{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

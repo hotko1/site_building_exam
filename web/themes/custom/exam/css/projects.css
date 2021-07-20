@@ -1,0 +1,205 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+.main-container .region-content .views-element-container .view-projects.no-flex .view-content {
+  display: block;
+}
+.main-container .region-content .views-element-container .view-projects.no-flex .view-content li:not(:first-child) {
+  margin-top: 10px;
+}
+.main-container .region-content .views-element-container .view-projects {
+  margin-bottom: 55px;
+  background-image: repeating-linear-gradient(-45deg, transparent 0 8px, #dbdbdb 9px 10px);
+}
+.main-container .region-content .views-element-container .view-projects .view-content {
+  border-top: 1px solid #cccccc;
+  transform: translateY(-35px);
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .item-list .views-field-title a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #6e9bca;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .item-list ol {
+  margin-left: 40px;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .views-row:first-child .content .block-field-blocknodeprojectsfield-servicesvocabulary .field--name-field-servicesvocabulary {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #1bbc9b;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .views-row:nth-child(2) .content .block-field-blocknodeprojectsfield-servicesvocabulary .field--name-field-servicesvocabulary {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #9b58b5;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .views-row:nth-child(3) .content .block-field-blocknodeprojectsfield-servicesvocabulary .field--name-field-servicesvocabulary {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #e84c3d;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .views-row:last-child .content .block-field-blocknodeprojectsfield-servicesvocabulary .field--name-field-servicesvocabulary {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #28a9e0;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser {
+  text-align: center;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser h2 {
+  display: none;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser footer .author {
+  display: none;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 462px;
+  border-bottom: 1px solid #000000;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectstitle {
+  padding-top: 40px;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectstitle span {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+  text-transform: uppercase;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectsfield-servicesvocabulary .field--name-field-servicesvocabulary {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectsbody {
+  margin-top: 40px;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectsbody a {
+  padding: 10px;
+  max-width: 100px;
+  background-color: #373645;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.main-container .region-content .views-element-container .view-projects .pager-nav .pagination {
+  margin-bottom: 145px;
+}
+.main-container .region-content .views-element-container .view-projects .pager-nav .pagination .pager__item a {
+  background-color: transparent;
+  color: #646464;
+  border: 0 solid transparent;
+  border-radius: 50%;
+}
+.main-container .region-content .views-element-container .view-projects .pager-nav .pagination .pager__item.is-active a {
+  background-color: #dddcdd;
+}
+
+.main-container .row .col-sm-12 .region-content .projects.full {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.main-container .row .col-sm-12 .region-content .projects.full footer {
+  display: none;
+}
+.main-container .row .col-sm-12 .region-content .projects.full .content .field--name-field-images .field--item {
+  margin-top: 30px;
+}
+.main-container .row .col-sm-12 .region-content .projects.full .content .field--name-field-images .field--item img {
+  margin: 0 auto;
+}
+.main-container .row .col-sm-12 .region-content .projects.full .content .field--name-field-servicesvocabulary {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-container .row .col-sm-12 .region-content .projects.full .content .field--type-text-with-summary {
+  margin-top: 35px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+}
+.main-container .row .col-sm-12 .region-content .projects.full .content .field--name-field-content .field--name-field-text .field--label {
+  display: none;
+}
+.main-container .row .col-sm-12 .region-content .projects.full .content .field--name-field-content .field--name-field-text .field--item {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+}
+
+/*# sourceMappingURL=projects.css.map */

@@ -1,0 +1,238 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+.main-container .region-content .views-element-container .form-group .view-ourteam.no-flex .view-content {
+  display: block;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam.no-flex .view-content li:not(:first-child) {
+  margin-top: 10px;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam {
+  margin-bottom: 50px;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content {
+  max-width: 1250px;
+  margin: 0 auto;
+  border-top: 1px solid #cccccc;
+  transform: translateY(-35px);
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .item-list .views-field-title a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #6e9bca;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .item-list ol {
+  margin-left: 40px;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser {
+  text-align: center;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser h2 {
+  display: none;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser footer .author {
+  display: none;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary h3 {
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+  text-transform: uppercase;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p {
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #d3d3d3;
+  text-transform: uppercase;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p + p {
+  margin-top: 30px;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:first-child {
+  padding: 10px;
+  max-width: 100px;
+  background-color: #373645;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(3) img, .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(4) img, .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(5) img {
+  transform: translateX(-50px);
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a img {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .action-flag {
+  transform: translate(75px, -22px);
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .action-flag a:after {
+  position: absolute;
+  content: "♡";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #c1c1c1;
+  text-decoration: none;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .action-unflag {
+  transform: translate(75px, -22px);
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .action-unflag a:after {
+  position: absolute;
+  content: "♥";
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: red;
+  text-decoration: none;
+}
+
+.main-container .region-content .ourteam {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.main-container .region-content .ourteam footer {
+  display: none;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 {
+  margin-top: 30px;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--first {
+  margin: 0 20px;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second {
+  margin: 0 20px;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .field--type-text-with-summary h3 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+  text-transform: uppercase;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .field--type-text-with-summary p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #d3d3d3;
+  text-transform: uppercase;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .field--type-text-with-summary p a {
+  margin-right: 5px;
+  text-decoration: none;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .field--type-text-with-summary p a:first-child {
+  display: none;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .block-extra-field-blocknodeourteamflag-like .action-flag {
+  transform: translate(120px, -22px);
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .block-extra-field-blocknodeourteamflag-like .action-flag a:before {
+  position: absolute;
+  content: "♡";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #c1c1c1;
+  text-decoration: none;
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .block-extra-field-blocknodeourteamflag-like .action-unflag {
+  transform: translate(120px, -22px);
+}
+.main-container .region-content .ourteam .content .layout--twocol-section--50-50 .layout__region--second .block-extra-field-blocknodeourteamflag-like .action-unflag a:before {
+  position: absolute;
+  content: "♥";
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: red;
+  text-decoration: none;
+}
+.main-container .region-content .ourteam .content .layout--onecol .layout__region--content .field--label {
+  display: none;
+}
+.main-container .region-content .ourteam .content .layout--onecol .layout__region--content .field--item {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+}
+
+.layout--twocol-section.layout--twocol-section--50-50 > .layout__region--first, .layout--twocol-section.layout--twocol-section--50-50 > .layout__region--second {
+  flex: 0 1 30%;
+}
+
+/*# sourceMappingURL=ourteam.css.map */

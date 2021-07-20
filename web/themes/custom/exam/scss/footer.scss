@@ -1,0 +1,41 @@
+@import "mixins";
+@import "variables";
+@import "reset";
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: none;
+  background-color: #373645;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  transform: translateY(2px);
+  .region-footer{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .block-block-content{
+      .field--type-text-with-summary{
+        text-align: center;
+        h3 {
+          @include fontz(32px, 32px, 400, normal, #6e9bca);
+          margin-bottom: 10px;
+        }
+        p {
+          @include fontz(14px, 14px, 400, normal, #cac9cd);
+          a{
+            img{
+              @include scale(25px, 25px);
+            }
+            &+a{
+              margin-left: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

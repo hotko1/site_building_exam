@@ -1,0 +1,187 @@
+@import "mixins";
+@import "variables";
+@import "reset";
+.main-container{
+  .region-content{
+    .views-element-container{
+      .view-projects.no-flex{
+        .view-content{
+          display: block;
+          li:not(:first-child){
+            margin-top: 10px;
+          }
+        }
+      }
+      .view-projects{
+        margin-bottom: 55px;
+        background-image: repeating-linear-gradient(-45deg,
+          transparent 0 8px,
+          #dbdbdb 9px 10px);
+        .view-content{
+          border-top: 1px solid #cccccc;
+          transform: translateY(-35px);
+          max-width: 1250px;
+          margin: 0 auto;
+          padding-top: 110px;
+          display: flex;
+          justify-content: space-between;
+          .item-list{
+            .views-field-title{
+              a{
+                @include fontz(16px,22px,400,normal,#6e9bca);
+              }
+            }
+            ol{
+              margin-left: 40px;
+            }
+          }
+          .views-row{
+            &:first-child{
+              .content{
+                .block-field-blocknodeprojectsfield-servicesvocabulary{
+                  .field--name-field-servicesvocabulary{
+                    @include fontz(14px,18px,400,normal,$webcolor);
+                  }
+                }
+              }
+            }
+            &:nth-child(2){
+              .content{
+                .block-field-blocknodeprojectsfield-servicesvocabulary{
+                  .field--name-field-servicesvocabulary{
+                    @include fontz(14px,18px,400,normal,$phpcolor);
+                  }
+                }
+              }
+            }
+            &:nth-child(3){
+              .content{
+                .block-field-blocknodeprojectsfield-servicesvocabulary{
+                  .field--name-field-servicesvocabulary{
+                    @include fontz(14px,18px,400,normal,$appcolor);
+                  }
+                }
+              }
+            }
+            &:last-child{
+              .content{
+                .block-field-blocknodeprojectsfield-servicesvocabulary{
+                  .field--name-field-servicesvocabulary{
+                    @include fontz(14px,18px,400,normal,$drupalcolor);
+                  }
+                }
+              }
+            }
+          }
+          .teaser{
+            text-align: center;
+            h2{
+              display: none;
+            }
+            footer{
+              .author{
+                display: none;
+              }
+            }
+            .content{
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              background-color: $bgcolour;
+              height: 462px;
+              border-bottom: 1px solid #000000;
+              .layout__region--content{
+                .block-field-blocknodeprojectstitle{
+                  padding-top: 40px;
+                  span{
+                    @include fontz(20px,22px,400,normal,#373645);
+                    text-transform: uppercase;
+                  }
+                }
+                .block-field-blocknodeprojectsfield-servicesvocabulary{
+                  .field--name-field-servicesvocabulary{
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                  }
+                }
+                .block-field-blocknodeprojectsbody{
+                  margin-top: 40px;
+                  a{
+                    padding: 10px;
+                    max-width: 100px;
+                    background-color: #373645;
+                    @include fontz(14px,14px,400,normal,#ffffff);
+                    text-transform: uppercase;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .pager-nav{
+          .pagination{
+            margin-bottom: 145px;
+            .pager__item{
+              a{
+                background-color: transparent;
+                color: #646464;
+                border: 0 solid transparent;
+                border-radius: 50%;
+              }
+              &.is-active{
+                a{
+                  background-color: #dddcdd;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.main-container{
+  .row{
+    .col-sm-12{
+      .region-content{
+        .projects.full{
+          max-width: 1250px;
+          margin: 0 auto;
+          footer{
+            display: none;
+          }
+          .content{
+            .field--name-field-images{
+              .field--item{
+                margin-top: 30px;
+                img{
+                  margin: 0 auto;
+                }
+              }
+            }
+            .field--name-field-servicesvocabulary{
+              margin-top: 30px;
+              @include fontz(20px,22px,400,normal,#373645);
+              text-transform: uppercase;
+              text-align: center;
+            }
+            .field--type-text-with-summary{
+              margin-top: 35px;
+              @include fontz(16px,20px,400,normal,#373645);
+            }
+            .field--name-field-content{
+              .field--name-field-text{
+                .field--label{
+                  display: none;
+                }
+                .field--item{
+                  @include fontz(16px,20px,400,normal,#373645);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

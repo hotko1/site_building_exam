@@ -1,0 +1,309 @@
+@import "mixins";
+@import "variables";
+@import "reset";
+.main-container{
+  .region-content{
+    .views-element-container{
+      .view-news.no-flex{
+        .view-content{
+          display: block;
+          li:not(:first-child){
+            margin-top: 10px;
+          }
+        }
+      }
+      .view-news{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 55px;
+        background-image: repeating-linear-gradient(-45deg,
+          transparent 0 8px,
+          #dbdbdb 9px 10px);
+        .view-filters{
+          max-width: 1250px;
+          margin: 0 auto;
+          border-top: 1px solid #cccccc;
+          transform: translateY(-35px);
+          .views-exposed-form{
+            .form-inline{
+              margin-top: 12px;
+              margin-left: 12px;
+              .form-type-textfield{
+                width: 27%;
+                padding: 6px 2px 5px 3px;
+                background: #f5f5f5;
+                .form-text{
+                  width: 100%;
+                }
+              }
+              .form-actions{
+                padding: 6px 0 5px 2px;
+                background: #f5f5f5;
+                margin-left: -4px;
+                .form-submit{}
+              }
+            }
+          }
+        }
+        .view-content{
+          max-width: 1250px;
+          margin: -22px auto 0 auto;
+          padding-bottom: 75px;
+          display: flex;
+          justify-content: space-between;
+          .item-list{
+            .views-field-title{
+              a{
+                @include fontz(16px,22px,400,normal,#6e9bca);
+              }
+            }
+            ol{
+              margin-left: 40px;
+            }
+          }
+          .views-row{
+            min-height: 100%;
+            &:nth-child(1){
+              margin-right: 15px;
+            }
+            &:nth-child(2){
+              margin-left: 15px;
+            }
+            .news{
+              background-color: #ffffff;
+              min-height: 100%;
+              h2{
+                display: none;
+              }
+              footer{
+                display: none;
+              }
+              .content{
+                padding-top: 21px;
+                padding-bottom: 31px;
+                padding-right: 20px;
+                .layout--twocol-section--25-75{
+                  &.layout--twocol-section{
+                    width: 100%;
+                  }
+                  .layout__region--first{
+                    text-align: center;
+                    flex: 0 1 15%;
+                    .block-field-blocknodenewscreated{
+                      &:nth-child(1){
+                        span{
+                          @include fontz(22px,22px,400,normal,#373645);
+                          text-transform: uppercase;
+                        }
+                      }
+                    }
+                    .block-field-blocknodenewscreated{
+                      &:nth-child(2){
+                        span{
+                          @include fontz(42px,42px,600,normal,#6e9bca);
+                        }
+                      }
+                    }
+                    .block-field-blocknodenewscreated{
+                      &:nth-child(3){
+                        span{
+                          @include fontz(14px,14px,400,normal,#cccccc);
+                        }
+                      }
+                    }
+                  }
+                  &:nth-child(1){
+                    .layout__region--second{
+                      flex: 0 1 85%;
+                      display: flex;
+                      padding-left: 20px;
+                      border-left: 1px solid #cccccc;
+                      .block-layout-builder{
+                        &:nth-child(1){
+                          margin-right: 10px;
+                          span{
+                            .contextual-region{
+                              .field--name-user-picture{
+                                a{
+                                  img{
+                                    @include scale(78px,78px);
+                                  }
+                                }
+                              }
+                              .form-group{
+                                display: none;
+                              }
+                            }
+                          }
+                        }
+                        &:nth-child(2){
+                          margin-right: 3px;
+                          .field--name-field-personalworkvocabulary{
+                            @include fontz(10px,12px,400,normal,#d3d3d3);
+                            text-transform: uppercase;
+                          }
+                        }
+                        &:nth-child(3){
+                          margin-right: 3px;
+                          transform: translateY(-4px);
+                          span{
+                            @include fontz(10px,12px,400,normal,#373645);
+                            text-transform: uppercase;
+                            &:after{
+                              content: ' /';
+                            }
+                          }
+                        }
+                        &:nth-child(4){
+                          .field--name-field-newsvocabulary{
+                            @include fontz(10px,12px,400,normal,#6f9ccb);
+                            text-transform: uppercase;
+                          }
+                        }
+                        &:nth-child(5){
+                          margin-left: auto;
+                          transform: translateY(-4px);
+                          span{
+                            @include fontz(10px,12px,400,normal,#d3d3d3);
+                            text-transform: uppercase;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  &:nth-child(2){
+                    padding-top: 20px;
+                    .layout__region--first{
+                      flex: 0 1 15%;
+                      .block-layout-builder{
+                        .field--name-field-data{
+                          display: none;
+                        }
+                      }
+                    }
+                    .layout__region--second{
+                      flex: 0 1 85%;
+                      padding-left: 20px;
+                      border-left: 1px solid #cccccc;
+                      .block-field-blocknodenewstitle{
+                        span{
+                          @include fontz(22px,22px,400,normal,#373645);
+                          text-transform: uppercase;
+                        }
+                      }
+                      .block-field-blocknodenewsbody{
+                        margin-top: 20px;
+                        margin-bottom: 25px;
+                        @include fontz(12px,14px,400,normal,#373645);
+                        text-transform: uppercase;
+                      }
+                      .block-field-blocknodenewsfield-content{
+                        .field--item{
+                          .paragraph--type--text{
+                            .field--name-field-text{
+                              .field--label{
+                                display: none;
+                              }
+                              .field--item{
+                                p{
+                                  text-align: right;
+                                  a{
+                                    padding: 10px;
+                                    max-width: 100px;
+                                    background-color: #373645;
+                                    @include fontz(14px,14px,400,normal,#ffffff);
+                                    text-transform: uppercase;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.main-container{
+  .row{
+    .col-sm-12{
+      .region-content{
+        .news.full{
+          max-width: 1250px;
+          margin: 0 auto;
+          footer{
+            display: none;
+          }
+          .content{
+            .layout--onecol{
+              margin-top: 30px;
+              &:nth-child(1){
+                .layout__region--content{
+                  display: flex;
+                  .block-field-blocknodenewsfield-personalworkvocabulary{
+                    margin-right: 15px;
+                    .field--name-field-personalworkvocabulary{
+                      .field--label{
+                        display: none;
+                      }
+                      .field--item{
+                        @include fontz(12px,14px,400,normal,#d3d3d3);
+                        text-transform: uppercase;
+                      }
+                    }
+                  }
+                  .block-field-blocknodenewsuid{
+                    margin-right: 15px;
+                    span{
+                      @include fontz(12px,14px,400,normal,#373645);
+                      text-transform: uppercase;
+                    }
+                  }
+                  .block-field-blocknodenewsfield-data{
+                    time{
+                      @include fontz(12px,14px,400,normal,#373645);
+                    }
+                  }
+                }
+              }
+              &:nth-child(2){
+                .layout__region--content{
+                  .block-field-blocknodenewstitle{
+                    text-align: center;
+                    span{
+                      @include fontz(22px,22px,400,normal,#373645);
+                      text-transform: uppercase;
+                    }
+                  }
+                  .block-field-blocknodenewsbody{
+                    margin-top: 20px;
+                    .field--type-text-with-summary{
+                      p{
+                        @include fontz(14px,18px,400,normal,#373645);
+                      }
+                    }
+                  }
+                  .block-field-blocknodenewsfield-newsvocabulary{
+                    margin-top: 20px;
+                    text-align: right;
+                    .field--name-field-newsvocabulary{
+                      @include fontz(20px,22px,400,normal,#6f9ccb);
+                      text-transform: uppercase;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

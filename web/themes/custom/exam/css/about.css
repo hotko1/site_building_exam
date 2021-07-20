@@ -1,0 +1,113 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+.block-block-content6fec852c-1d32-428f-8311-36656cfb7c14 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.block-block-content6fec852c-1d32-428f-8311-36656cfb7c14 .field--name-body {
+  border-top: 5px solid #373645;
+  border-bottom: 5px solid #6e9bca;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.block-block-content6fec852c-1d32-428f-8311-36656cfb7c14 .field--name-body h2 {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #000000;
+}
+.block-block-content6fec852c-1d32-428f-8311-36656cfb7c14 .field--name-body p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #dadada;
+}
+.block-block-content6fec852c-1d32-428f-8311-36656cfb7c14 .field--name-body p a {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #6e9bca;
+}
+
+.main-container .region-content .about {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.main-container .region-content .about footer {
+  display: none;
+}
+.main-container .region-content .about .content .layout__region--content .block-field-blocknodeabouttitle {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-container .region-content .about .content .layout__region--content .block-field-blocknodeaboutbody {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #373645;
+}
+
+/*# sourceMappingURL=about.css.map */
