@@ -6,6 +6,7 @@ html{
 }
 body{
   background-color: $bgcolour;
+  overflow-x: hidden;
   height: 100%;
 }
 .main-container{
