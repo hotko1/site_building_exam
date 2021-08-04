@@ -52,6 +52,8 @@ a {
 }
 .main-container .region-content .views-element-container .view-clients {
   margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-container .region-content .views-element-container .view-clients .view-content {
   max-width: 1250px;

@@ -14,6 +14,8 @@
       }
       .view-projects{
         margin-bottom: 55px;
+        padding-left: 15px;
+        padding-right: 15px;
         background-image: repeating-linear-gradient(-45deg,
           transparent 0 8px,
           #dbdbdb 9px 10px);
@@ -23,6 +25,8 @@
           max-width: 1250px;
           margin: 0 auto;
           padding-top: 110px;
+          //padding-left: 15px;
+          //padding-right: 15px;
           display: flex;
           justify-content: space-between;
           .item-list{
@@ -104,14 +108,25 @@
                     text-transform: uppercase;
                   }
                 }
-                .block-field-blocknodeprojectsbody{
-                  margin-top: 40px;
-                  a{
-                    padding: 10px;
-                    max-width: 100px;
-                    background-color: #373645;
-                    @include fontz(14px,14px,400,normal,#ffffff);
-                    text-transform: uppercase;
+                .block-extra-field-blocknodeprojectslinks{
+                  margin-top: 30px;
+                  .list-inline{
+                    .node-readmore{
+                      a{
+                        position: relative;
+                        font-size: 0;
+                        &::after{
+                          position: absolute;
+                          content: 'Details';
+                          transform: translateX(-36px);
+                          padding: 10px;
+                          max-width: 100px;
+                          background-color: #373645;
+                          @include fontz(14px,14px,400,normal,#ffffff);
+                          text-transform: uppercase;
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -147,6 +162,9 @@
         .projects.full{
           max-width: 1250px;
           margin: 0 auto;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-bottom: 50px;
           footer{
             display: none;
           }

@@ -53,6 +53,8 @@ a {
 }
 .main-container .region-content .views-element-container .form-group .view-ourteam {
   margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-container .region-content .views-element-container .form-group .view-ourteam .view-content {
   max-width: 1250px;
@@ -108,18 +110,8 @@ a {
 .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p + p {
   margin-top: 30px;
 }
-.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:first-child {
-  padding: 10px;
-  max-width: 100px;
-  background-color: #373645;
-  font-size: 14px;
-  line-height: 14px;
-  font-weight: 400;
-  letter-spacing: normal;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(3) img, .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(4) img, .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(5) img {
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(2) img, .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(3) img, .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a:nth-child(4) img {
+  margin-top: 72px;
   transform: translateX(-50px);
 }
 .main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .field--type-text-with-summary p a img {
@@ -152,10 +144,34 @@ a {
   color: red;
   text-decoration: none;
 }
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .list-inline .node-readmore a {
+  position: relative;
+  font-size: 0;
+}
+.main-container .region-content .views-element-container .form-group .view-ourteam .view-content .teaser .content .list-inline .node-readmore a::after {
+  position: absolute;
+  content: "Look at me";
+  white-space: nowrap;
+  transform: translate(-48px, -82px);
+  padding: 10px;
+  max-width: 100px;
+  background-color: #373645;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
 .main-container .region-content .ourteam {
   max-width: 1250px;
   margin: 0 auto;
+}
+.main-container .region-content .ourteam.full {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
 }
 .main-container .region-content .ourteam footer {
   display: none;

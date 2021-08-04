@@ -51,8 +51,8 @@ a {
   margin-top: 10px;
 }
 .main-container .region-content .views-element-container .view-news {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 55px;
   background-image: repeating-linear-gradient(-45deg, transparent 0 8px, #dbdbdb 9px 10px);
 }
@@ -243,13 +243,11 @@ a {
   color: #373645;
   text-transform: uppercase;
 }
-.main-container .region-content .views-element-container .view-news .view-content .views-row .news .content .layout--twocol-section--25-75:nth-child(2) .layout__region--second .block-field-blocknodenewsfield-content .field--item .paragraph--type--text .field--name-field-text .field--label {
-  display: none;
+.main-container .region-content .views-element-container .view-news .view-content .views-row .news .content .layout--twocol-section--25-75:nth-child(2) .layout__region--second .block-extra-field-blocknodenewslinks .list-inline {
+  display: flex;
+  justify-content: flex-end;
 }
-.main-container .region-content .views-element-container .view-news .view-content .views-row .news .content .layout--twocol-section--25-75:nth-child(2) .layout__region--second .block-field-blocknodenewsfield-content .field--item .paragraph--type--text .field--name-field-text .field--item p {
-  text-align: right;
-}
-.main-container .region-content .views-element-container .view-news .view-content .views-row .news .content .layout--twocol-section--25-75:nth-child(2) .layout__region--second .block-field-blocknodenewsfield-content .field--item .paragraph--type--text .field--name-field-text .field--item p a {
+.main-container .region-content .views-element-container .view-news .view-content .views-row .news .content .layout--twocol-section--25-75:nth-child(2) .layout__region--second .block-extra-field-blocknodenewslinks .list-inline .node-readmore a {
   padding: 10px;
   max-width: 100px;
   background-color: #373645;
@@ -264,6 +262,9 @@ a {
 .main-container .row .col-sm-12 .region-content .news.full {
   max-width: 1250px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
 }
 .main-container .row .col-sm-12 .region-content .news.full footer {
   display: none;

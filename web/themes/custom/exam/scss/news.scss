@@ -13,8 +13,8 @@
         }
       }
       .view-news{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-bottom: 55px;
         background-image: repeating-linear-gradient(-45deg,
           transparent 0 8px,
@@ -197,25 +197,17 @@
                         @include fontz(12px,14px,400,normal,#373645);
                         text-transform: uppercase;
                       }
-                      .block-field-blocknodenewsfield-content{
-                        .field--item{
-                          .paragraph--type--text{
-                            .field--name-field-text{
-                              .field--label{
-                                display: none;
-                              }
-                              .field--item{
-                                p{
-                                  text-align: right;
-                                  a{
-                                    padding: 10px;
-                                    max-width: 100px;
-                                    background-color: #373645;
-                                    @include fontz(14px,14px,400,normal,#ffffff);
-                                    text-transform: uppercase;
-                                  }
-                                }
-                              }
+                      .block-extra-field-blocknodenewslinks{
+                        .list-inline{
+                          display: flex;
+                          justify-content: flex-end;
+                          .node-readmore{
+                            a{
+                              padding: 10px;
+                              max-width: 100px;
+                              background-color: #373645;
+                              @include fontz(14px,14px,400,normal,#ffffff);
+                              text-transform: uppercase;
                             }
                           }
                         }
@@ -238,6 +230,9 @@
         .news.full{
           max-width: 1250px;
           margin: 0 auto;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-bottom: 50px;
           footer{
             display: none;
           }

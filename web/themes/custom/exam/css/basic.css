@@ -76,6 +76,18 @@ body {
   flex: 0;
 }
 
+.dialog-off-canvas-main-canvas .main-container.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.dialog-off-canvas-main-canvas .main-container .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.dialog-off-canvas-main-canvas .main-container .row .col-sm-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
 .dialog-off-canvas-main-canvas .main-container .row .col-sm-12 .region-content .block-block-content6fec852c-1d32-428f-8311-36656cfb7c14:first-child {
   border-top: 5px solid #373645;
   max-width: 1250px;

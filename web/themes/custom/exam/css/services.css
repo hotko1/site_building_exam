@@ -53,6 +53,8 @@ a {
 }
 .main-container .region-content .views-element-container .view-services {
   margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-container .region-content .views-element-container .view-services .view-content {
   max-width: 1250px;
@@ -98,10 +100,10 @@ a {
   color: #d3d3d3;
   text-transform: uppercase;
 }
-.main-container .region-content .views-element-container .view-services .view-content .teaser .content .field--type-text-with-summary p + p {
-  margin-top: 30px;
+.main-container .region-content .views-element-container .view-services .view-content .teaser .content .list-inline {
+  margin-top: 31px;
 }
-.main-container .region-content .views-element-container .view-services .view-content .teaser .content .field--type-text-with-summary p a {
+.main-container .region-content .views-element-container .view-services .view-content .teaser .content .list-inline .node-readmore a {
   padding: 10px;
   max-width: 100px;
   background-color: #6e9bca;
@@ -116,6 +118,11 @@ a {
 .main-container .region-content .services {
   max-width: 1250px;
   margin: 0 auto;
+}
+.main-container .region-content .services.full {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
 }
 .main-container .region-content .services footer {
   display: none;

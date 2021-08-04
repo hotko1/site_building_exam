@@ -2,8 +2,9 @@
 @import "variables";
 @import "reset";
 .block-block-content6fec852c-1d32-428f-8311-36656cfb7c14{
-  padding-top: 100px;
-  padding-bottom: 60px;
+  padding: 100px 15px 60px 15px;
+  //padding-top: 100px;
+  //padding-bottom: 60px;
   max-width: 1250px;
   margin: 0 auto;
   .field--name-body{
@@ -32,6 +33,10 @@
     .about{
       max-width: 1250px;
       margin: 0 auto;
+      &.full{
+        padding-left: 15px;
+        padding-right: 15px;
+      }
       footer{
         display: none;
       }

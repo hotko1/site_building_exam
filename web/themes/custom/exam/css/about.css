@@ -45,8 +45,7 @@ a {
 }
 
 .block-block-content6fec852c-1d32-428f-8311-36656cfb7c14 {
-  padding-top: 100px;
-  padding-bottom: 60px;
+  padding: 100px 15px 60px 15px;
   max-width: 1250px;
   margin: 0 auto;
 }
@@ -86,6 +85,10 @@ a {
 .main-container .region-content .about {
   max-width: 1250px;
   margin: 0 auto;
+}
+.main-container .region-content .about.full {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-container .region-content .about footer {
   display: none;

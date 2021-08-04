@@ -147,9 +147,11 @@ a {
     float: left;
   }
   .navbar-default .container .navbar-header .region-navigation .block-block-content:nth-child(2) {
-    display: none;
+    z-index: 5;
   }
   .navbar-default .container .navbar-collapse {
+    position: relative;
+    z-index: 10;
     background-color: #ffffff;
   }
   .navbar-default .container .navbar-collapse .region-navigation-collapsible {
@@ -195,6 +197,44 @@ a {
   }
   .navbar-default .container .navbar-collapse .region-navigation-collapsible .block-search-form-block .form-search {
     max-width: 140px;
+  }
+}
+@media (max-width: 420px) {
+  .navbar-default .container {
+    height: 100%;
+  }
+  .navbar-default .container .navbar-header .navbar-toggle {
+    margin: 40px 15px;
+  }
+  .navbar-default .container .navbar-header .region-navigation {
+    float: left;
+  }
+  .navbar-default .container .navbar-header .region-navigation .block-block-content:nth-child(2) {
+    max-width: 290px;
+  }
+  .navbar-default .container .navbar-header .region-navigation .block-block-content:nth-child(2) h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .navbar-default .container .navbar-header .region-navigation .block-block-content:nth-child(2) h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #373645;
+    text-transform: uppercase;
+  }
+  .navbar-default .container .navbar-header .region-navigation .block-block-content:nth-child(2) p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #6f9ccb;
+    text-transform: uppercase;
   }
 }
 

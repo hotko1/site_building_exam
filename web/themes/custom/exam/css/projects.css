@@ -52,6 +52,8 @@ a {
 }
 .main-container .region-content .views-element-container .view-projects {
   margin-bottom: 55px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-image: repeating-linear-gradient(-45deg, transparent 0 8px, #dbdbdb 9px 10px);
 }
 .main-container .region-content .views-element-container .view-projects .view-content {
@@ -133,10 +135,17 @@ a {
   margin-top: 10px;
   text-transform: uppercase;
 }
-.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectsbody {
-  margin-top: 40px;
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-extra-field-blocknodeprojectslinks {
+  margin-top: 30px;
 }
-.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-field-blocknodeprojectsbody a {
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-extra-field-blocknodeprojectslinks .list-inline .node-readmore a {
+  position: relative;
+  font-size: 0;
+}
+.main-container .region-content .views-element-container .view-projects .view-content .teaser .content .layout__region--content .block-extra-field-blocknodeprojectslinks .list-inline .node-readmore a::after {
+  position: absolute;
+  content: "Details";
+  transform: translateX(-36px);
   padding: 10px;
   max-width: 100px;
   background-color: #373645;
@@ -163,6 +172,9 @@ a {
 .main-container .row .col-sm-12 .region-content .projects.full {
   max-width: 1250px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
 }
 .main-container .row .col-sm-12 .region-content .projects.full footer {
   display: none;
