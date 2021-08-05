@@ -53,6 +53,8 @@ a {
 }
 .main-container .region-content .contact .content {
   margin-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-container .region-content .contact .content .layout--onecol {
   margin-bottom: 60px;
